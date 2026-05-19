@@ -8,6 +8,8 @@ import type {
   PriceBand,
   SamuiPrices,
   TripResult,
+  VisaCheckResult,
+  VisaHintLevel,
 } from './types';
 import { CATEGORY_LABELS } from './types';
 
@@ -87,6 +89,72 @@ export function getCurrency(code: string): CurrencyConfig {
 export function isThailandOrigin(originId: string): boolean {
   const origin = prices.origins.find((o) => o.id === originId);
   return origin?.skipInternational === true;
+}
+
+/** Origins where many travelers historically used visa exemption — still verify officially. */
+const OFTEN_EXEMPT_ORIGIN_IDS = new Set<string>([
+  'vn',
+  'my',
+  'sg',
+  'hk',
+  'jp',
+  'kr',
+  'us',
+  'uk',
+  'de',
+  'fr',
+  'nl',
+  'se',
+  'au',
+  'nz',
+  'ca',
+  'ae',
+  'za',
+  'br',
+]);
+
+/**
+ * Non-authoritative hint for UI copy only. Always confirm with Thai immigration / embassy.
+ */
+export function checkVisa(originId: string): VisaCheckResult {
+  const origin = prices.origins.find((o) => o.id === originId);
+  const label = origin?.label ?? 'your passport';
+
+  const pack = (level: VisaHintLevel, headline: string, detail: string): VisaCheckResult => ({
+    level,
+    headline,
+    detail,
+  });
+
+  if (originId === 'th' || isThailandOrigin(originId)) {
+    return pack(
+      'domestic',
+      'Already in Thailand',
+      'International entry rules do not apply for this leg — focus on domestic transport and any internal registration rules that apply to you.',
+    );
+  }
+
+  if (originId === 'other') {
+    return pack(
+      'verify',
+      'Confirm entry rules for your passport',
+      'We do not know your nationality. Use official Thai immigration resources and your embassy — exemptions, e-visas, and permitted stay lengths change frequently.',
+    );
+  }
+
+  if (OFTEN_EXEMPT_ORIGIN_IDS.has(originId)) {
+    return pack(
+      'oftenExempt',
+      `Typical tourist route (${label})`,
+      'Many passport holders in this group have used visa exemption or straightforward tourist entry — but eligibility, stamps, extensions, and proof-of-funds rules change. Confirm before you fly.',
+    );
+  }
+
+  return pack(
+    'verify',
+    `Verify requirements (${label})`,
+    'Rules for this passport can involve e-visa, visa-on-arrival, or other conditions. Check Thailand’s official immigration notices and your embassy — do not rely on this app.',
+  );
 }
 
 export function calculateTrip(input: CalculatorInput): TripResult {

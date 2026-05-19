@@ -1,0 +1,111 @@
+{
+  "lastUpdated": "2026-05-20",
+  "noteDisclaimer": "Tourist entry rules change often. Confirm passport validity, onward ticket, TDAC/e-gate eligibility, land vs air arrival differences, and any proof-of-funds with an official source before travel.",
+  "origins": {
+    "th": {
+      "visaFree": true,
+      "stayDays": null,
+      "note": "Residents / nationals already in Thailand — no inbound visa applies for domestic hops; carry ID/passport suitable for onward checks."
+    },
+    "vn": {
+      "visaFree": true,
+      "stayDays": 30,
+      "note": "Vietnamese passport holders commonly receive ASEAN visa‑exempt entry for Thailand (often 30 days by air — verify land-border limits separately)."
+    },
+    "my": {
+      "visaFree": true,
+      "stayDays": 30,
+      "note": "Malaysian passport holders commonly receive ASEAN visa‑exempt entry (often 30 days — confirm border crossing/airport stamp rules)."
+    },
+    "sg": {
+      "visaFree": true,
+      "stayDays": 30,
+      "note": "Singapore passport holders commonly receive ASEAN visa‑exempt entry (often 30 days — verify any extra exit/entry stamping requirements)."
+    },
+    "uk": {
+      "visaFree": true,
+      "stayDays": 60,
+      "note": "Many UK passports qualify for Thai visa‑exemption tourist stays up to ~60 days (verify current MFA/immigration bulletin; extension rules vary)."
+    },
+    "de": {
+      "visaFree": true,
+      "stayDays": 60,
+      "note": "Many German passports qualify for Thai visa‑exemption tourist stays up to ~60 days; confirm biometric passport and proof‑of‑funds guidelines."
+    },
+    "fr": {
+      "visaFree": true,
+      "stayDays": 60,
+      "note": "Many French passports qualify for Thai visa‑exemption tourist stays up to ~60 days; confirm airport vs land rules if routed via neighbors."
+    },
+    "nl": {
+      "visaFree": true,
+      "stayDays": 60,
+      "note": "Many Dutch passports qualify for Thai visa‑exemption tourist stays up to ~60 days; confirm Schengen/third‑country itineraries if layered."
+    },
+    "se": {
+      "visaFree": true,
+      "stayDays": 60,
+      "note": "Many Swedish passports qualify for Thai visa‑exemption tourist stays up to ~60 days."
+    },
+    "us": {
+      "visaFree": true,
+      "stayDays": 60,
+      "note": "Many US passports qualify for Thai visa‑exemption tourist stays up to ~60 days; confirm any prior overstay/incident flags ahead of ticketing."
+    },
+    "ca": {
+      "visaFree": true,
+      "stayDays": 60,
+      "note": "Many Canadian passports qualify for Thai visa‑exemption tourist stays up to ~60 days."
+    },
+    "au": {
+      "visaFree": true,
+      "stayDays": 60,
+      "note": "Many Australian passports qualify for Thai visa‑exemption tourist stays up to ~60 days."
+    },
+    "nz": {
+      "visaFree": true,
+      "stayDays": 60,
+      "note": "Many New Zealand passports qualify for Thai visa‑exemption tourist stays up to ~60 days."
+    },
+    "jp": {
+      "visaFree": true,
+      "stayDays": 60,
+      "note": "Many Japanese passports qualify for Thai visa‑exemption tourist stays up to ~60 days."
+    },
+    "kr": {
+      "visaFree": true,
+      "stayDays": 60,
+      "note": "Many South Korean passports qualify for Thai visa‑exemption tourist stays up to ~60 days."
+    },
+    "hk": {
+      "visaFree": true,
+      "stayDays": 60,
+      "note": "HKSAR (and BN(O) where applicable per current rules) often receives visa‑exempt entry for tourism — verify exact passport type and stamping practice."
+    },
+    "cn": {
+      "visaFree": true,
+      "stayDays": 60,
+      "note": "Temporary visa‑exemption programs for Chinese passports have rotated; assume you must verify the currently published duration and prerequisites before ticketing."
+    },
+    "in": {
+      "visaFree": true,
+      "stayDays": 60,
+      "note": "India has repeatedly been granted temporary Thai visa exemptions (duration has moved between 30/60 days): confirm embassy/MFA bulletin for exact dates and onward ticket docs."
+    },
+    "ae": {
+      "visaFree": true,
+      "stayDays": 60,
+      "note": "UAE passports commonly qualify for extended Thai visa‑exemption tourist stays; verify any layover visa needs if returning via tighter GCC transit rules."
+    },
+    "br": {
+      "visaFree": true,
+      "stayDays": 60,
+      "note": "Many Brazilian passports qualify for Thai visa‑exemption tourism programs (historically up to ~60 days in recent schemes — confirm MFA list inclusion)."
+    },
+    "za": {
+      "visaFree": true,
+      "stayDays": 60,
+      "note": "South African passports are frequently included on Thai visa‑exemption traveler lists — confirm stamping duration if you arrive from high‑risk-route hubs."
+    }
+  }
+}

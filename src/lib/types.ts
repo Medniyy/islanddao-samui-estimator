@@ -129,3 +129,12 @@ export const CATEGORY_LABELS: Record<ExpenseCategory, string> = {
   lifestyle: 'Going out & bars',
   extras: 'Extras & misc',
 };
+
+/** Illustrative only — immigration rules change; users must verify officially. */
+export type VisaHintLevel = 'domestic' | 'oftenExempt' | 'verify';
+
+export interface VisaCheckResult {
+  level: VisaHintLevel;
+  headline: string;
+  detail: string;
+}

@@ -10,6 +10,7 @@ import {
 import { Methodology } from './components/Methodology';
 import { ResultsBreakdown } from './components/ResultsBreakdown';
 import { SiteFooter } from './components/SiteFooter';
+import { TripChecklist } from './components/TripChecklist';
 import { calculateTrip } from './lib/calculateTrip';
 
 const defaultState: FormState = {
@@ -37,17 +38,12 @@ function App() {
       <ThemeToggle />
       <ActionLinks />
       <main className="ps1-shell ps1-stack">
-        <header className="ps1-hero">
-          <h1 className="ps1-title">Can you afford Samui?</h1>
-          <p className="ps1-sub">
-            IslandDAO Thailand · 3–28 June 2026 · Koh Samui cost planner
-          </p>
-        </header>
+        <TripChecklist>
+          <CalculatorForm state={form} onChange={patch} />
+          <ResultsBreakdown result={result} currencyCode={form.currencyCode} />
+        </TripChecklist>
 
-        <CalculatorForm state={form} onChange={patch} />
-        <ResultsBreakdown result={result} currencyCode={form.currencyCode} />
         <Methodology />
-
         <SiteFooter />
       </main>
     </>

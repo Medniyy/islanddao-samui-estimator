@@ -1,0 +1,44 @@
+{
+  "lastUpdated": "2026-05-20",
+  "sources": [
+    "https://www.customs.go.th/",
+    "https://www.customs.go.th/uploads/120319_Eng_Customs_Decree_Revised_Edition_No_2466_EN.pdf"
+  ],
+  "intro": "Thailand enforces strict customs and aviation security rules. Lists below distill common trip risks — verify every item against official embassy and Customs notices.",
+  "vapeWarning": "E-cigarettes, vape pens, nicotine pods/e-liquid, and related paraphernalia are illegal in Thailand. Do not carry them through Thai airports — customs confiscations, fines, deportation or arrest scenarios are routinely reported online. Leave vaping gear behind even if nicotine-only or THC-free.",
+  "carryOn": [
+    "Liquids over 100 ml tubes when cabin rules apply — double-check airline and transfer airports",
+    "Loose lithium batteries/power banks improperly packed — must follow ICAO pouch rules",
+    "Tools, blades and self-defense items flagged as weapons by security theater",
+    "Large undeclared cash bundles that surpass declaration thresholds mid-flight itineraries"
+  ],
+  "checkedAndCustoms": [
+    "Narcotics, precursors or mis-declared pharmaceuticals",
+    "Counterfeit apparel, falsified DAO merch and pirated installers",
+    "Wildlife souvenirs, untreated wood/soil violating biosecurity",
+    "High-power radios, jamming gadgets, undeclared commercial drone kits"
+  ],
+  "customsUrl": "https://www.customs.go.th/",
+  "customsLinkLabel": "Thai Customs Department",
+  "prohibited": [
+    "Narcotics and controlled psychoactive substances (including prescription opioids without compliant paperwork)",
+    "Cannabis flower and extracts above currently published tourism carve-outs announced by MFA/MOPH",
+    "Counterfeit branded goods and pirated media",
+    "Ivory, protected wildlife trophies, shells and corals lacking CITES permits",
+    "Obscene material categories restricted under Thai criminal codes even if sold legally elsewhere",
+    "Radio transmitters, IMSI-catching hardware, scanners without Thai telecom registration",
+    "Counterfeit or altered Thai banknotes/coins",
+    "Firearms, ammunition, explosives, firearm-shaped replicas lacking explicit approvals",
+    "Fireworks or industrial chemicals routed as personal luggage without permits"
+  ],
+  "restricted": [
+    "Bearer instruments and cash aggregates above lawful declaration tiers — paperwork before immigration/customs desks",
+    "Gold bullion, investment jewellery and gemstones above personal-use valuations",
+    "Plants, seeds, pets, untreated animal products needing quarantine release",
+    "Prescription meds — labelled bottles plus physician correspondence for multi-month supplies",
+    "Drones, LIDAR rigs, surveying lasers — obey CAAS/CAAT registration and geofencing",
+    "Alcohol/tobacco beyond published duty-free volumes",
+    "Cultural artefacts, antiques or temple donations lacking lawful export dossiers",
+    "DAO hardware vaults disguised as consumer electronics without invoice/provenance paperwork"
+  ]
+}
