@@ -6,6 +6,16 @@ Single-page tool to estimate the cost of attending **IslandDAO Thailand** (Koh S
 - **Free to run** — static site, no API keys
 - **Client-side only** — all math in the browser
 
+## Analytics (Umami)
+
+Page views and time on site are tracked when Umami env vars are set at **build time**.
+
+1. Copy [`.env.example`](.env.example) to `.env.local` (dev) or `.env.production` (GitHub Pages build).
+2. Paste your **script URL** and **website ID** from Umami → Settings → Websites → Tracking code.
+3. Rebuild and redeploy (`npm run build`).
+
+If vars are missing, the app runs normally without analytics.
+
 ## Develop
 
 ```bash
