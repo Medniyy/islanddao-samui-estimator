@@ -1,0 +1,169 @@
+{
+  "lastUpdated": "2026-05-19",
+  "sources": [
+    "https://www.numbeo.com/cost-of-living/in/Koh-Samui-Thailand",
+    "https://www.exiap.com/guides/thb-usd",
+    "https://thingstodoinsamui.com/",
+    "https://support.google.com/travel/answer/2477436?hl=en",
+    "https://www.google.com/travel/flights"
+  ],
+  "thbPerUsd": 35,
+  "currencies": [
+    { "code": "USD", "label": "US Dollar", "symbol": "$", "ratePerUsd": 1, "decimals": 0 },
+    { "code": "THB", "label": "Thai Baht", "symbol": "฿", "ratePerUsd": 35, "decimals": 0 },
+    { "code": "EUR", "label": "Euro", "symbol": "€", "ratePerUsd": 0.92, "decimals": 0 },
+    { "code": "GBP", "label": "British Pound", "symbol": "£", "ratePerUsd": 0.79, "decimals": 0 },
+    { "code": "VND", "label": "Vietnamese Dong", "symbol": "₫", "ratePerUsd": 25400, "decimals": 0 },
+    { "code": "SGD", "label": "Singapore Dollar", "symbol": "S$", "ratePerUsd": 1.35, "decimals": 0 },
+    { "code": "AUD", "label": "Australian Dollar", "symbol": "A$", "ratePerUsd": 1.55, "decimals": 0 },
+    { "code": "JPY", "label": "Japanese Yen", "symbol": "¥", "ratePerUsd": 156, "decimals": 0 },
+    { "code": "KRW", "label": "Korean Won", "symbol": "₩", "ratePerUsd": 1380, "decimals": 0 },
+    { "code": "INR", "label": "Indian Rupee", "symbol": "₹", "ratePerUsd": 85, "decimals": 0 }
+  ],
+  "margins": {
+    "internationalFlights": 25,
+    "bangkokSamui": 15,
+    "accommodation": 30,
+    "food": 20,
+    "nightlife": 25,
+    "motorbike": 15,
+    "extras": 15
+  },
+  "origins": [
+    {
+      "id": "th",
+      "label": "Thailand (already here — Bangkok leg only)",
+      "flights": { "low": 0, "mid": 0, "high": 0 },
+      "skipInternational": true
+    },
+    {
+      "id": "vn",
+      "label": "Vietnam",
+      "flights": { "low": 85, "mid": 130, "high": 190 }
+    },
+    {
+      "id": "us",
+      "label": "United States",
+      "flights": { "low": 780, "mid": 1020, "high": 1380 }
+    },
+    {
+      "id": "uk",
+      "label": "United Kingdom",
+      "flights": { "low": 520, "mid": 680, "high": 920 }
+    },
+    {
+      "id": "de",
+      "label": "Germany",
+      "flights": { "low": 480, "mid": 640, "high": 860 }
+    },
+    {
+      "id": "fr",
+      "label": "France",
+      "flights": { "low": 500, "mid": 660, "high": 890 }
+    },
+    {
+      "id": "nl",
+      "label": "Netherlands",
+      "flights": { "low": 510, "mid": 670, "high": 900 }
+    },
+    {
+      "id": "se",
+      "label": "Sweden",
+      "flights": { "low": 560, "mid": 730, "high": 960 }
+    },
+    {
+      "id": "ae",
+      "label": "United Arab Emirates",
+      "flights": { "low": 380, "mid": 520, "high": 720 }
+    },
+    {
+      "id": "in",
+      "label": "India",
+      "flights": { "low": 310, "mid": 420, "high": 580 }
+    },
+    {
+      "id": "cn",
+      "label": "China (major hubs)",
+      "flights": { "low": 320, "mid": 450, "high": 620 }
+    },
+    {
+      "id": "jp",
+      "label": "Japan",
+      "flights": { "low": 380, "mid": 520, "high": 680 }
+    },
+    {
+      "id": "kr",
+      "label": "South Korea",
+      "flights": { "low": 290, "mid": 400, "high": 540 }
+    },
+    {
+      "id": "hk",
+      "label": "Hong Kong",
+      "flights": { "low": 200, "mid": 280, "high": 380 }
+    },
+    {
+      "id": "sg",
+      "label": "Singapore",
+      "flights": { "low": 140, "mid": 190, "high": 260 }
+    },
+    {
+      "id": "my",
+      "label": "Malaysia",
+      "flights": { "low": 95, "mid": 140, "high": 200 }
+    },
+    {
+      "id": "au",
+      "label": "Australia",
+      "flights": { "low": 420, "mid": 560, "high": 720 }
+    },
+    {
+      "id": "nz",
+      "label": "New Zealand",
+      "flights": { "low": 520, "mid": 660, "high": 860 }
+    },
+    {
+      "id": "ca",
+      "label": "Canada",
+      "flights": { "low": 740, "mid": 980, "high": 1320 }
+    },
+    {
+      "id": "br",
+      "label": "Brazil",
+      "flights": { "low": 920, "mid": 1150, "high": 1450 }
+    },
+    {
+      "id": "za",
+      "label": "South Africa",
+      "flights": { "low": 680, "mid": 850, "high": 1100 }
+    }
+  ],
+  "bangkokSamui": {
+    "flight": { "low": 150, "mid": 195, "high": 240 },
+    "budgetRoute": { "low": 50, "mid": 65, "high": 80 }
+  },
+  "tiers": {
+    "budget": {
+      "accommodationPerNight": { "low": 5, "mid": 10, "high": 18 },
+      "foodPerDay": { "low": 6, "mid": 12, "high": 20 },
+      "nightlifePerDay": { "low": 0, "mid": 4, "high": 12 }
+    },
+    "mid": {
+      "accommodationPerNight": { "low": 40, "mid": 75, "high": 120 },
+      "foodPerDay": { "low": 20, "mid": 38, "high": 60 },
+      "nightlifePerDay": { "low": 15, "mid": 35, "high": 70 }
+    },
+    "premium": {
+      "accommodationPerNight": { "low": 120, "mid": 230, "high": 420 },
+      "foodPerDay": { "low": 50, "mid": 90, "high": 150 },
+      "nightlifePerDay": { "low": 30, "mid": 80, "high": 160 }
+    }
+  },
+  "extras": {
+    "sim": { "mid": 10 },
+    "miscBuffer": { "mid": 50 }
+  },
+  "motorbike": {
+    "perDay": { "mid": 8 },
+    "weeklyBundle": { "mid": 40 }
+  }
+}
